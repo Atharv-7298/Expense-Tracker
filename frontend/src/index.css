@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-semibold text-slate-900;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow p-4;
+}
